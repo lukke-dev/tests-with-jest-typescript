@@ -17,11 +17,11 @@ export class IndividualCustomer
     this.cpf = cpf;
   }
 
-  getName(): string {
+  getIDN(): string {
     return this.cpf;
   }
 
-  getIDN(): string {
+  getName(): string {
     return this.firstName + ' ' + this.lastName;
   }
 }
